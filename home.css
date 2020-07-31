@@ -1,0 +1,92 @@
+.custom-navbar {
+  box-shadow: 10px 10px 10px #eee;
+  z-index: ;
+  background-color: #949999;
+}
+.nav-link {
+  color: #c0392b !important;
+  font-size: 20px;
+  padding-left:15px;
+}
+.custom-toggler.navbar-toggler {
+  border-color: #949999;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247,32,78, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler .navbar-toggler-icon {
+  width: 18px !important;
+}
+.custom-toggler:hover {
+  border-color: rgb(255, 255, 255);
+  background-color:#c0392b;
+}
+.navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#logo_custom {
+  margin-top: -6px;
+  width: 4%;
+  border-radius: 35px;
+}
+.submit {
+  background-color: #949999;
+  border: none;
+  color: #c0392b;
+  border-radius: 35px;
+  text-align: center;
+  text-decoration: none;
+font-weight: bold;
+  font-size: 20px;
+  margin: 7px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: #949999;
+  color: white;
+  border-radius: 35px;
+}
+.container2{
+  margin-top:200px;
+}
+.btn-container{
+  float: right;
+  margin-top: -8%;
+}
+.btn{
+  background-color: rgb(165, 181, 184);
+  border:none;
+}
+.input[type="text"]{
+  border: none;
+}
+/* card */
+.card{
+  background-color: #cccfcf;
+  border:1px solid #c0392b;
+}
+.card-img{
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding:auto;
+}
+.card-text{
+  padding-left: 30px;
+}
+.card-title{
+  padding-left: 30px;
+  text-align: center;
+}
+.btn-group{
+  /* margin-left: 50%;
+margin-top: 30px; */
+background-color:#278b8b ;
+}
+
+@media only screen and (max-width: 760px) {
+  #logo_custom {
+    width: 20%;
+  }
+}
